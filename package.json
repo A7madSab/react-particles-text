@@ -3,6 +3,11 @@
   "version": "0.0.2",
   "author": "Ahmad Sabry",
   "description": "A personalised  Library.",
+  "homepage": "https://react-particles-text.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A7madSab/react-particles-text.git"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "rollup -c --watch",

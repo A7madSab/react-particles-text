@@ -76,7 +76,7 @@ This component uses an HTML canvas to render the particles, with interactive beh
 
 ## Storybook Documentation
 
-For live previews and comprehensive examples, check out the Storybook documentation. The Storybook project includes several pre-configured stories that demonstrate different use cases and visual styles, including:
+For live previews and comprehensive examples, check out the [Storybook Documentation](https://react-particles-text.vercel.app/?path=/story/components-particletext--dark-mode). The Storybook project includes several pre-configured stories that demonstrate different use cases and visual styles, including:
 
 - Dark Mode: Light text on a dark background.
 - Colorful: Vibrant particle colors with custom interaction settings.
