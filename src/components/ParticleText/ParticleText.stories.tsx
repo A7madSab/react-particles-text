@@ -75,14 +75,6 @@ const meta: Meta<typeof ParticleText> = {
 export default meta;
 type Story = StoryObj<typeof ParticleText>;
 
-// Default example
-export const Default: Story = {
-  args: {
-    text: "REACT BITS",
-    backgroundColor: "transparent",
-  },
-};
-
 // Light text on dark background
 export const DarkMode: Story = {
   args: {
