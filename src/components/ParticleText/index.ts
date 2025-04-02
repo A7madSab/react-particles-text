@@ -1,3 +1,1 @@
-import ParticleText from "./ParticleText";
-export * from "./ParticleText";
-export default ParticleText;
+export { default as ParticleText, IParticleText } from "./ParticleText";

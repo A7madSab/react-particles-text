@@ -1,0 +1,93 @@
+/* Smudge.css - Pure CSS implementation for the Smudge component */
+
+/* Base container styling */
+.smudge-container {
+    position: relative;
+    width: 100%;
+    max-width: 64rem; /* 4xl in Tailwind */
+    aspect-ratio: 16 / 9; /* aspect-video in Tailwind */
+}
+
+/* Canvas styling */
+.smudge-canvas {
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+    cursor: crosshair;
+    border-radius: 0.5rem; /* rounded-lg in Tailwind */
+}
+
+/* Button container */
+.smudge-buttons {
+    position: absolute;
+    bottom: 1rem; /* bottom-4 in Tailwind */
+    right: 1rem; /* right-4 in Tailwind */
+    display: flex;
+    gap: 0.5rem; /* gap-2 in Tailwind */
+}
+
+/* Button styling */
+.smudge-button {
+    background-color: rgba(0, 0, 0, 0.5); /* bg-black/50 in Tailwind */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* border border-white/20 in Tailwind */
+    color: white; /* text-white in Tailwind */
+    border-radius: 0.25rem; /* rounded in Tailwind */
+    padding: 0.5rem; /* p-2 in Tailwind */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+.smudge-button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* hover:bg-black/70 in Tailwind */
+}
+
+/* Text button variant */
+.smudge-button-text {
+    padding: 0.5rem 0.75rem; /* px-3 py-2 in Tailwind */
+    font-size: 0.875rem; /* text-sm in Tailwind */
+}
+
+/* Fullscreen mode */
+.smudge-fullscreen {
+    position: fixed;
+    inset: 0;
+    z-index: 50; /* z-50 in Tailwind */
+    background-color: black;
+    max-width: none;
+}
+
+/* Icon styling */
+.smudge-icon {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+/* Animation for particles (optional enhancement) */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* Utility classes for accessibility */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
