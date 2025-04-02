@@ -1,6 +1,6 @@
 {
   "name": "react-particles-text",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Ahmad Sabry",
   "description": "A React component for creating interactive particle text effects",
   "homepage": "https://react-particles-text.vercel.app/",
@@ -87,6 +87,7 @@
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || || ^19.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || || ^19.0.0"
   }
 }
